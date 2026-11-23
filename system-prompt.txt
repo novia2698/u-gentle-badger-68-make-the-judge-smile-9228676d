@@ -1,0 +1,9 @@
+Build one warm line for the "Make the Judge Smile" bounty on make.fun, and the small program that writes it.
+
+The bounty: one line, at most 200 characters, about a small good thing that happened today. An AI judge compares entries two at a time and weighs, in this order: the line is about a small good thing today; warmth; surprise; one concrete detail; fresh wording. Total prize $5, split over the top 3 places: 1st $2, 2nd $2, 3rd $1. Entries close 2026-11-24T05:50:00Z, results 16 December 2026. Entry is free.
+
+Aim at a paid place, not just a valid entry. Write the line so it wins pairwise comparisons: lead with genuine warmth, turn somewhere unexpected, anchor it in one real small detail (a name, a sound, a time of day), and use wording no greeting card would print.
+
+The program is main.ts (Node 22): it writes the line to $MAKEFUN_OUTPUT_DIR/entry.txt, or /output/entry.txt when that variable is unset, and refuses to write anything over 200 characters. Keep everything the entry runs inside this repository; it takes no secrets and calls no network.
+
+Deliverables in this repository: main.ts at the root, a LICENSE file with an MIT license, a README.md with the three live make.fun badges, .makefun/owner.json naming the payout wallet, and this system-prompt.txt. The repository is public under novia2698, created after the competition opened, and committed under the git identity novia2698 / 74765176+novia2698@users.noreply.github.com.
